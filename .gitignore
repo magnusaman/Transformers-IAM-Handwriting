@@ -1,0 +1,11 @@
+# Large files - don't commit to git
+iam_forms/
+processed/images/
+*.pth
+*.pt
+__pycache__/
+.ipynb_checkpoints/
+
+# Keep these small files
+!processed/labels.txt
+!tokenizer.pkl
