@@ -1,0 +1,66 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model files (too large for git)
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+
+# Dataset files (too large for git)
+iam_dataset/
+*.zip
+*.tar.gz
+*.csv
+
+# Large model checkpoints
+best_trocr_model/
+
+# Kaggle credentials
+kaggle.json
+
+# Output files
+*.png
+*.jpg
+*.jpeg
+!final_prediction.png
+!preprocessing_steps.png
+
+# Logs
+*.log
+logs/
+wandb/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+temp/
+
+# Cache
+.cache/
+.pytest_cache/
